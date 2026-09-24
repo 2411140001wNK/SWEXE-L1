@@ -1,86 +1,14 @@
-body {
-  font-family: sans-serif;
-  background: #f5f6fa;
-  color: #333;
-  margin: 0;
-}
-
-.container {
-  max-width: 800px;
-  margin: 30px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  border-bottom: 3px solid #4a7bd0;
-  padding-bottom: 8px;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 16px;
-}
-
-th, td {
-  padding: 10px;
-  border-bottom: 1px solid #ddd;
-  text-align: left;
-}
-
-th {
-  background: #4a7bd0;
-  color: #fff;
-}
-
-a {
-  color: #4a7bd0;
-  text-decoration: none;
-  margin-right: 8px;
-}
-
-input[type=text], input[type=number], textarea {
-  width: 100%;
-  padding: 8px;
-  margin: 4px 0 12px;
-  box-sizing: border-box;
-}
-
-input[type=submit], button {
-  background: #4a7bd0;
-  color: #fff;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-td form {
-  display: inline;
-}
-
-.flash {
-  padding: 10px 20px;
-  margin: 0;
-}
-
-.notice {
-  background: #d4edda;
-  color: #155724;
-}
-
-.alert {
-  background: #f8d7da;
-  color: #721c24;
-}
-
-.error-box {
-  background: #f8d7da;
-  color: #721c24;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 12px;
-}
+body { font-family: sans-serif; background: #f5f6fa; color: #333; margin: 0; }
+.container { max-width: 800px; margin: 30px auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,.1); }
+h1 { border-bottom: 3px solid #4a7bd0; padding-bottom: 8px; }
+table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+th, td { padding: 10px; border-bottom: 1px solid #ddd; text-align: left; }
+th { background: #4a7bd0; color: #fff; }
+a { color: #4a7bd0; text-decoration: none; margin-right: 8px; }
+input[type=text], input[type=number], textarea { width: 100%; padding: 8px; margin: 4px 0 12px; box-sizing: border-box; }
+input[type=submit], button { background: #4a7bd0; color: #fff; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; }
+td form { display: inline; }
+.flash { padding: 10px 20px; margin: 0; }
+.notice { background: #d4edda; color: #155724; }
+.alert { background: #f8d7da; color: #721c24; }
+.error-box { background: #f8d7da; color: #721c24; padding: 10px; border-radius: 4px; margin-bottom: 12px; }
